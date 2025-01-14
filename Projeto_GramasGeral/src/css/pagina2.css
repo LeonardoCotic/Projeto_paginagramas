@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #eef2ee;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: #367c2b;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(159, 194, 105);
+    
+}
+.container img{
+    overflow: hidden;
+    position:absolute;
+    z-index: 0;
+    filter: brightness(40%);
+    height: 50vh;
+    width: 100vw;
+}
+.container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45vh;
+    width: 100vw;
+}
+header{
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 100%;
+    
+}
+.logo{
+    overflow: hidden;
+    font-size: 25px;
+    color: white;
+    z-index: 1;
+    padding-top: 3vh;
+    height: auto;
+}
+
+span{
+    color:  #367c2b;
+}
+.navegacao{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height:auto;
+    z-index: 1;
+    width: 60vh;
+    padding: 1vh;
+    height: auto;
+    margin-right: 10vh;
+}
+    .nav{
+    overflow: hidden;
+    padding: 1vh;
+    margin-right: 6vh;
+    font-size: 25px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: auto;
+}
+.nav:hover{
+    color: #329725;
+}
+.container input{
+    overflow: hidden;
+    cursor: pointer;
+    padding: 1vh;
+    text-align: center;
+    padding-left:6vh;
+    padding-right: 6vh;
+    border-radius: 20px;
+    background-color: #295b22;
+    color: white;
+    box-shadow: 3px 3px 3px white;
+    border: none;
+    font-size: 20px;
+    z-index: 1;
+    height: auto;
+    margin-bottom: 2vh;
+    
+}
+.txt-banner{
+    overflow: hidden;
+    color: white;
+    z-index: 1;
+    margin-top: 22vh;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1vh;
+}
+.txt1-banner{
+    overflow: hidden;
+    font-size:30px;
+    width: 30vh;
+}
+.txt2-banner{
+    overflow: hidden;
+    margin-bottom: 2vh;
+    font-size:40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: auto;
+}
+.container1{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vh;
+    justify-content: space-evenly;
+    padding: 3vh;
+    height: auto;
+    overflow: hidden;
+
+   
+}
+.img-geral-container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+    height: auto;
+    
+}
+.txt-container1{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2vh;
+    width:60vh;
+    height: auto;
+}
+.img-container1{
+    overflow: hidden;
+    height: 30vh;
+    width: 25vh;
+}
+.txt1-container1{
+    overflow: hidden;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #367c2b;
+    padding: 1vh;
+}
+.txt2-container1{
+    overflow: hidden;
+    font-size: 35px;
+    color: #295b22;
+    padding: 1vh;
+}
+.txt3-container1{
+    overflow: hidden;
+    font-size: 25px;
+    color: rgb(54, 50, 50);
+    padding: 1vh;
+}
+.container2{
+    background-image: url(../img/container3.jpg);
+    height: auto;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    filter: brightness(90%);
+    text-align: center;
+    margin-top:2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.txt1-container2{
+    font-size: 35px;
+    color: white;
+    overflow: hidden;
+   
+}
+.txt2-container2{
+    font-size: 45px;
+    color: white;
+   margin: 2vh;overflow: hidden;
+}
+.txt3-container2{
+    font-size: 30px;
+    color: white;
+    margin: 2vh;
+    margin-bottom: 10vh;
+    overflow: hidden;
+}
+
+.mosaico-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8vh;
+    overflow: hidden;
+}
+.item{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 25vh;
+    height: auto;
+    overflow: hidden;
+    
+}
+.txt1-item{
+    font-size: 35px;
+    width: 20vh;
+    margin-bottom: 2vh;
+    overflow: hidden;
+}
+.txt2-item{
+    font-size: 25px;
+    width: 20vh;
+    overflow: hidden;
+    
+}
+.container3{
+    background-color: #367c2b;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    gap: 2vh;
+    overflow: hidden;
+}
+.txt1-container3{
+    font-size: 35px;
+    color: white;
+    width: 40vh;
+    text-align: center;
+    padding: 1vh;
+    overflow: hidden;
+}
+.txt2-container3{
+    text-align: center;
+    font-size: 30px;
+    width: 40vh;
+    padding: 2vh;
+    color: white;
+    padding: 1vh;
+    overflow: hidden;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1vh;
+    margin-bottom: 1vh;
+    overflow: hidden;
+}
+footer .logo{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:1270px){
+    header input{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:1100px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+    }
+    .navegacao{
+        gap: 0;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width:700px){
+   .txt-container1{
+        width: 40vh;
+    }
+    .img-geral-container1{
+        width: 40vh;
+    }
+    .txt1-container2, .txt2-container2, .txt3-container2{
+        width: 40vh;
+    }
+    .txt1-item{
+        width: 25vh;
+    }
+    
+}
+
+@media screen and (max-width:550px){
+    .logo{
+        font-size: 25px;
+    }
+    .navegacao{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 1vh;
+        width: 20vh;
+    }
+    .nav{
+        width: 20vh;
+        margin: 0;
+        padding: 0;
+    }
+    .txt-banner{
+        margin-top: 32vh;
+    }
+    .container img, .container{
+        height: 55vh;
+    }
+    .container1{
+        margin-top: 1vh;
+    }
+}
+
+@media screen and (max-width:470px){
+   .logo{
+    font-size: 20px;
+   }
+   .txt-banner{
+    width: 20vh;
+    margin-top: 28vh;
+   }
+   .txt2-banner{
+    font-size: 30px;
+    }
+    .txt2-banner input{
+        padding-right: 2vh;
+        padding-left: 2vh;
+    }
+    .txt1-container2, .txt2-container2, .txt3-container2{
+        width: 30vh;
+    }
+    .txt1-container1{
+        font-size: 25px;
+    }
+    .txt2-container1{
+        font-size: 30px;
+    }
+    .txt3-container1{
+        font-size: 20px;
+    }
+    .txt1-container2{
+        font-size: 25px;
+    }
+    .txt2-container2{
+        font-size: 30px;
+    }
+    .txt3-container2{
+        font-size: 30px;
+    }
+    .txt1-container3, .txt2-container3{
+        font-size: 25px;
+        width: 25vh;
+    }
+}
+
+@media screen and (max-width:400px){
+    .txt-banner{
+        width: 40vh;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:370px){
+    .logo{
+     font-size: 15px;
+    }
+    .txt2-banner input{
+         padding-right: 2vh;
+         padding-left: 2vh;
+     }
+     .txt1-container2, .txt2-container2, .txt3-container2{
+         width: 20vh;
+         
+     }
+     .txt1-container1, .txt2-container1, .txt3-container1{
+        font-size: 20px;
+        
+    }
+    .img-geral-container1{
+        display: none;
+    }
+     
+     .txt1-container3, .txt2-container3{
+         font-size: 25px;
+         width: 25vh;
+     }
+ }
+
+ @media screen and (max-width:320px){
+        .txt-banner{
+        display: none;
+    }
+
+ }
+
+ @media screen and (max-height:710px){
+    .container3{
+        flex-direction: column;
+    }
+    .txt1-container3, .txt2-container3{
+        width: 50vh;
+    }
+    .item, .txt1-item, .txt2-item{
+        width: 35vh;
+    }
+    .txt1-item{
+        font-size: 30px;
+    }
+    .txt2-item{
+        font-size: 20px;
+    }
+    .txt1-container2, .txt2-container2, .txt3-container2{
+        font-size: 30px;
+        width: 40vh;
+        padding-top: 2vh;
+    }
+    .img-container1{
+        width: 35vh;
+    }
+    .txt3-container1{
+        font-size: 15px;
+        width: 40vh;
+    }
+    .txt1-banner{
+        display: none;
+    }
+    .txt-banner{
+        margin-top: 32vh;
+    }
+}
+
+@media screen and (max-height:540px){
+    .txt-banner{
+    display: none;
+    }
+    .navegacao{
+        margin-top: 5vh;
+    }
+}
+
+@media screen and (max-height:400px){
+    .navegacao{
+        display: none;
+    }
+}
+
+
+
+
+
